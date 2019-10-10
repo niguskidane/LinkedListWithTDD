@@ -70,7 +70,7 @@ public class LinkedListTest {
     @Test
     public void testRemove_firstElementFromTwoElementList_sizeIsOne(){
         givenAlistContaining("a","b");
-        String result=list.remove(0);
+        whenTheFirstElementIsRemoved();
         assertEquals(1, list.size());
 
     }
@@ -78,9 +78,13 @@ public class LinkedListTest {
     @Test
     public void testRemove_firstElementFromTwoElementList_firstElementIsOldSecondElement(){
         givenAlistContaining("a","b");
-        list.remove(0);
-        assertEquals(1, list.size());
+        whenTheFirstElementIsRemoved();
+        assertEquals("b", list.get(0));
 
+    }
+
+    private void whenTheFirstElementIsRemoved() {
+        list.remove(0);
     }
 
 

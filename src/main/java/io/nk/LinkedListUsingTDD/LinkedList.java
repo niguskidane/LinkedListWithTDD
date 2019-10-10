@@ -2,7 +2,6 @@ package io.nk.LinkedListUsingTDD;
 
 public class LinkedList<T> {
 
-    private int size=0;
     private Node header;
 
     public int size() {
@@ -52,6 +51,18 @@ public class LinkedList<T> {
         return temp.value;
     }
 
+    @Override
+    public String toString(){
+        StringBuffer stringBuffer=new StringBuffer();
+        Node node=header;
+        Node temp=null;
+        while (node!=null){
+            temp=node;
+            stringBuffer.append("<"+temp.value+">"+", ");
+            node=node.next;
+        }
+        return stringBuffer.toString();
+    }
 
     private class Node{
         private final T value;
@@ -60,4 +71,5 @@ public class LinkedList<T> {
                 this.value=value;
         }
     }
+
 }
