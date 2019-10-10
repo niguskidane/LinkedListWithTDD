@@ -21,8 +21,18 @@ public class LinkedListTest {
 
     @Test
     public void testSize_oneElement_sizeIsOne(){
-        list.add("a");
+        givenAlistWithOneElement("a");
         assertEquals(1, list.size());
+    }
+
+    private void givenAlistContaining(String ...elements) {
+        for(String s: elements){
+            list.add(s);
+        }
+    }
+
+    private void givenAlistWithOneElement(String a) {
+        list.add(a);
     }
 
     @Test
@@ -48,15 +58,31 @@ public class LinkedListTest {
         assertEquals("a", value);
     }
 
-    private void givenAlistContaining(String ...elements) {
-        for(String s: elements){
-            list.add(s);
-        }
+
+    @Test
+    public void testRemove_firstElementFromTwoElementList_elementWasFirst(){
+        givenAlistContaining("a","b");
+        String result=list.remove(0);
+        assertEquals("a", result);
+
     }
 
-    private void givenAlistWithOneElement(String a) {
-        list.add(a);
+    @Test
+    public void testRemove_firstElementFromTwoElementList_sizeIsOne(){
+        givenAlistContaining("a","b");
+        String result=list.remove(0);
+        assertEquals(1, list.size());
+
     }
+
+    @Test
+    public void testRemove_firstElementFromTwoElementList_firstElementIsOldSecondElement(){
+        givenAlistContaining("a","b");
+        list.remove(0);
+        assertEquals(1, list.size());
+
+    }
+
 
     @After
     public void tearDown() throws Exception {

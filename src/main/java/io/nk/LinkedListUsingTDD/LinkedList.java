@@ -31,6 +31,24 @@ public class LinkedList<T> {
             return temp.value;
     }
 
+    public T remove(int value) {
+        size--;
+        Node temp=header;
+        Node previous=null;
+        while (value>0){
+            value--;
+            previous=temp;
+            temp=temp.next;
+        }
+        if(previous==null){
+            header=temp.next;
+        }else {
+            previous.next = temp.next;
+        }
+        return temp.value;
+    }
+
+
     private class Node{
         private final T value;
         private Node next;

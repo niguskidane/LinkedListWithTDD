@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d844924d-c0bb-4e2a-b724-73497f29f6b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/nk/LinkedListUsingTDD/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/nk/LinkedListUsingTDD/LinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/nk/LinkedListUsingTDD/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/nk/LinkedListUsingTDD/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/nk/LinkedListUsingTDD/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/nk/LinkedListUsingTDD/LinkedListTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,43 +36,44 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1555" />
+          <entry key="java" value="1956" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1555" />
+          <entry key="JAVA" value="1956" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/nk/LinkedListUsingTDD/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+            <state relative-caret-position="288">
+              <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
               <folding>
                 <element signature="e#83#84#0" expanded="true" />
                 <element signature="e#107#108#0" expanded="true" />
                 <element signature="e#756#757#0" expanded="true" />
+                <element signature="e#800#801#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/io/nk/LinkedListUsingTDD/LinkedListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-272">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="398">
+              <caret line="81" column="37" lean-forward="true" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#358#359#0" expanded="true" />
                 <element signature="e#402#403#0" expanded="true" />
-                <element signature="e#1222#1223#0" expanded="true" />
-                <element signature="e#1249#1250#0" expanded="true" />
+                <element signature="e#720#721#0" expanded="true" />
+                <element signature="e#747#748#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -209,7 +208,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570681896457" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570683978859" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -266,22 +265,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.testGet_oneElement1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TDDByExampleWithDifferentDataStructures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.nk.LinkedListUsingTDD.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="io.nk.LinkedListUsingTDD" />
-      <option name="MAIN_CLASS_NAME" value="io.nk.LinkedListUsingTDD.LinkedListTest" />
-      <option name="METHOD_NAME" value="testGet_oneElement1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LinkedListTest.testGet_secondElementFromTwoElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDDByExampleWithDifferentDataStructures" />
       <extension name="coverage">
@@ -298,7 +281,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListTest.testSize_oneElement_sizeIsOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedListTest.testRemove_firstElementFromTwoElementList_firstElementIsOldSecondElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDDByExampleWithDifferentDataStructures" />
       <extension name="coverage">
         <pattern>
@@ -308,26 +291,42 @@
       </extension>
       <option name="PACKAGE_NAME" value="io.nk.LinkedListUsingTDD" />
       <option name="MAIN_CLASS_NAME" value="io.nk.LinkedListUsingTDD.LinkedListTest" />
-      <option name="METHOD_NAME" value="testSize_oneElement_sizeIsOne" />
+      <option name="METHOD_NAME" value="testRemove_firstElementFromTwoElementList_firstElementIsOldSecondElement" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedListTest.testRemove_firstElementFromTwoElementList_sizeIsOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDDByExampleWithDifferentDataStructures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.nk.LinkedListUsingTDD.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.nk.LinkedListUsingTDD" />
+      <option name="MAIN_CLASS_NAME" value="io.nk.LinkedListUsingTDD.LinkedListTest" />
+      <option name="METHOD_NAME" value="testRemove_firstElementFromTwoElementList_sizeIsOne" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.LinkedListTest.testSize_oneElement_sizeIsOne" />
       <item itemvalue="JUnit.LinkedListTest" />
       <item itemvalue="JUnit.LinkedListTest.testGet_oneElement" />
-      <item itemvalue="JUnit.LinkedListTest.testGet_oneElement1" />
       <item itemvalue="JUnit.LinkedListTest.testGet_secondElementFromTwoElement" />
+      <item itemvalue="JUnit.LinkedListTest.testRemove_firstElementFromTwoElementList_sizeIsOne" />
+      <item itemvalue="JUnit.LinkedListTest.testRemove_firstElementFromTwoElementList_firstElementIsOldSecondElement" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.LinkedListTest" />
+        <item itemvalue="JUnit.LinkedListTest.testRemove_firstElementFromTwoElementList_firstElementIsOldSecondElement" />
+        <item itemvalue="JUnit.LinkedListTest.testRemove_firstElementFromTwoElementList_sizeIsOne" />
         <item itemvalue="JUnit.LinkedListTest.testGet_secondElementFromTwoElement" />
         <item itemvalue="JUnit.LinkedListTest.testGet_oneElement" />
-        <item itemvalue="JUnit.LinkedListTest.testGet_oneElement1" />
-        <item itemvalue="JUnit.LinkedListTest.testSize_oneElement_sizeIsOne" />
       </list>
     </recent_temporary>
   </component>
@@ -341,29 +340,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570670411573</updated>
-      <workItem from="1570670416002" duration="11226000" />
+      <workItem from="1570670416002" duration="13010000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LinkedListTest_testGet_oneElement - 2019.10.09 at 21h 41m 50s.xml">
-      <configuration name="LinkedListTest.testGet_oneElement" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_testGet_oneElement - 2019.10.09 at 21h 42m 30s.xml">
-      <configuration name="LinkedListTest.testGet_oneElement" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest_testGet_oneElement - 2019.10.09 at 21h 46m 03s.xml">
-      <configuration name="LinkedListTest.testGet_oneElement" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest - 2019.10.09 at 21h 46m 09s.xml">
-      <configuration name="LinkedListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest - 2019.10.09 at 21h 46m 45s.xml">
-      <configuration name="LinkedListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListTest - 2019.10.09 at 21h 51m 53s.xml">
-      <configuration name="LinkedListTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LinkedListTest_testGet_secondElementFromTwoElement - 2019.10.09 at 21h 55m 11s.xml">
       <configuration name="LinkedListTest.testGet_secondElementFromTwoElement" configurationId="JUnit" />
     </history-entry>
@@ -376,9 +357,27 @@
     <history-entry file="LinkedListTest - 2019.10.09 at 22h 27m 16s.xml">
       <configuration name="LinkedListTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LinkedListTest - 2019.10.09 at 22h 44m 39s.xml">
+      <configuration name="LinkedListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest - 2019.10.09 at 22h 47m 42s.xml">
+      <configuration name="LinkedListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_testRemove_firstElementFromTwoElementList_sizeIsOne - 2019.10.09 at 22h 50m 26s.xml">
+      <configuration name="LinkedListTest.testRemove_firstElementFromTwoElementList_sizeIsOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_testRemove_firstElementFromTwoElementList_sizeIsOne - 2019.10.09 at 22h 50m 53s.xml">
+      <configuration name="LinkedListTest.testRemove_firstElementFromTwoElementList_sizeIsOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest - 2019.10.09 at 22h 54m 39s.xml">
+      <configuration name="LinkedListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LinkedListTest_testRemove_firstElementFromTwoElementList_firstElementIsOldSecondElement - 2019.10.09 at 22h 57m 28s.xml">
+      <configuration name="LinkedListTest.testRemove_firstElementFromTwoElementList_firstElementIsOldSecondElement" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11226000" />
+    <option name="totallyTimeSpent" value="13010000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -394,7 +393,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -438,28 +437,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/nk/LinkedListUsingTDD/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
-          <folding>
-            <element signature="e#83#84#0" expanded="true" />
-            <element signature="e#107#108#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/io/nk/LinkedListUsingTDD/LinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="398">
+          <caret line="81" column="37" lean-forward="true" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#358#359#0" expanded="true" />
             <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#1222#1223#0" expanded="true" />
-            <element signature="e#1249#1250#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/nk/LinkedListUsingTDD/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+          <folding>
+            <element signature="e#83#84#0" expanded="true" />
+            <element signature="e#107#108#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#800#801#0" expanded="true" />
           </folding>
         </state>
       </provider>
