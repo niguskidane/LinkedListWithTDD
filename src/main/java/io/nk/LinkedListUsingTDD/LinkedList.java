@@ -6,11 +6,16 @@ public class LinkedList<T> {
     private Node header;
 
     public int size() {
-        return size;
+        int count=0;
+        Node node=header;
+        while(node!=null){
+            node=node.next;
+            count++;
+        }
+        return count;
     }
 
     public void add(T a) {
-        size++;
         if(header==null){
             header=new Node(a);
         }else{
@@ -32,7 +37,6 @@ public class LinkedList<T> {
     }
 
     public T remove(int value) {
-        size--;
         Node temp=header;
         Node previous=null;
         while (value>0){
